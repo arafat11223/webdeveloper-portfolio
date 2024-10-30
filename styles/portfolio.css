@@ -8,9 +8,6 @@ nav{
     color:#181818;
     font-size:45px;
     front-width:800px;
-
-
-
 }
 
 .text-primary{
@@ -68,6 +65,11 @@ nav a{
     margin-bottom:20px;
 }
 /* main secti0n style */
+main{
+    max-width: 1140px;
+    margin:0px auto;
+}
+
 /* about section style */
 .about{
     padding:130px;
@@ -88,4 +90,11 @@ nav a{
     text-align: center;
     font-size:18px ;
 
+}
+.about-info-container{
+    display:flex;
+    justify-content: space-around ;
+}
+.info-title{
+    text-align:center
 }
