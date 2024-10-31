@@ -69,6 +69,9 @@ main{
     max-width: 1140px;
     margin:0px auto;
 }
+main section{
+    margin-top: 130px; */
+}
 
 /* about section style */
 .about{
@@ -97,4 +100,84 @@ main{
 }
 .info-title{
     text-align:center
+}
+/* skill related style */
+#i-do{
+    padding:30px 150px;
+
+}
+.skill-container{
+    display: flex;
+    gap:24px;
+    /* justify-content:space-around ; */
+    /* padding:30px 100px; */
+}
+.skill{
+    padding:30px;
+    background:#FFFFFF ;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+
+}
+.skill-description{
+    color:#757575;
+
+}
+/* resume section style */
+.resume-column-title{
+    color:#474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    gap:50px;
+}
+.resume-item-description , .resume-item-institute{
+    color:#757575;
+}
+.resume-item-title{
+    color:#474747;
+    font-size:25px;
+    font-weight: 700;
+    margin-bottom:10px;
+
+}
+.resume-item-institute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+    .resume-column{
+        width: 50%;
+    }
+}
+/* footer style */
+footer{
+    display:flex;
+    background-color: #FFF8F3 ;
+    Padding:130px 200px;
+    margin-top: 100px;
+    gap:100px;
+}
+.footer-column{
+    width: 50%;
+}
+.contract input[type="text"],input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color:#757575;
+    border:0;
+    border-radius: 5px;
+    background: #FFF;
+    width: 100%;
+
+}
+.social-links a{
+    margin-left: 25px;
+
 }
